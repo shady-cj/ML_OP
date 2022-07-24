@@ -1,0 +1,17 @@
+(.devops) voclabs:~/environment/ML_OP (main) $ ./run_kubernetes.sh 
+error: failed to create deployment: deployments.apps "flask-ml-production" already exists
+NAME                                  READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/flask-ml-production   1/1     1            1           51m
+
+NAME                                             DESIRED   CURRENT   READY   AGE
+replicaset.apps/flask-ml-production-6b477d99cf   1         1         1       51m
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   91m
+
+NAME                                       READY   STATUS    RESTARTS   AGE
+pod/flask-ml-production-6b477d99cf-t6847   1/1     Running   0          51m
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
