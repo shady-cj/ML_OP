@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# The host name isn't localhost because the project was done in a cloud 9 environment.
 PORT=8000
 echo "Port: $PORT"
 
