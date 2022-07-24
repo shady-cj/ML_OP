@@ -43,6 +43,6 @@ jobs:
                 make lint
                 
 workflows:
-  main:
+  main_workflow:
     jobs:
       - build
