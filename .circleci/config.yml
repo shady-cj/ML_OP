@@ -42,7 +42,7 @@ jobs:
                 source venv/bin/activate
                 make lint
                 
-    workflows:
-        main:
-            jobs:
-                - build
+workflows:
+    main:
+        jobs:
+            - build
