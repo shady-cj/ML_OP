@@ -1,7 +1,7 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/shady-cj/ML_OP/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/shady-cj/ML_OP/tree/main)
 # ML_OP
 
-This project is a finals project on udacity devops training that involves deploying and operationalizing a Machine Learning Model.
+This project is a finals project at udacity on devops training that involves deploying and operationalizing a Machine Learning Model.
 
 ## Project Tasks
 The project goal is to operationalize this working, mahine learnig microservice using kubernetes, which is an open-source system for automating ths management of containerized applications. In this project i will:
